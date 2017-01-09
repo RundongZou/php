@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form-submit</title>
+    <style>
+        form p {
+            line-height: 30px;
+        }
+        form span {
+            float: left;
+            width: 60px;
+            line-height: 30px;
+            text-align: right;
+            margin-right: 10px;
+        }
+        .submit {
+            text-indent: 114px;
+        }
+    </style>
+</head>
+<body>
+<form action="welcome.php" method="post">
+    <p>
+        <span>Name: </span><input type="text" name="username">
+    </p>
+    <p>
+        <span>E-mail: </span> <input type="text" name="email">
+    </p>
+    <p class="submit">
+        <input type="submit">
+    </p>
+</form>
+</body>
+</html>
